@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Dataset files
+datasets/*
+!datasets/README.md
+
+# Generated outputs
+outputs/*
+!outputs/README.md
+
+# Python testing
+.pytest_cache/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
